@@ -10,7 +10,7 @@ const ProfExpTab = () => {
                     <div className={`${classes?.lineFlex}`}>
                         <div className={`${classes?.top_line}`}></div>
                         <div className={`${classes?.middle}`}>
-                            <img src="/expIcon.svg" alt="Separator image" />
+                            <img src="/education/3.png" alt="Separator image" />
                         </div>
                         <div className={`${classes?.bottom_line}`}></div>
                     </div>
@@ -57,7 +57,7 @@ const ProfExpTab = () => {
                     <div className={`${classes?.lineFlex}`}>
                         <div className={`${classes?.top_line}`}></div>
                         <div className={`${classes?.middle}`}>
-                            <img src="/expIcon.svg" alt="Separator image" />
+                            <img src="/education/3.png" alt="Separator image" />
                         </div>
                         <div className={`${classes?.bottom_line}`}></div>
                     </div>

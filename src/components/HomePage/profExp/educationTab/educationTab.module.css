@@ -23,10 +23,12 @@
   
   .positionHead {
     color: #fff;
+    font-size: 24px;
   }
   
   .compHead {
     color: #fff;
+    font-size: 16px;
   }
   
   .list {
@@ -88,6 +90,10 @@
     .list li{
       font-size: 14px;
     }
+    .middle img {
+      width: 40px;
+      height: 40px;
+    }
   }
   @media only screen and (min-width: 577px) and (max-width: 991px) {
     .eduPad {
@@ -109,6 +115,10 @@
     .list li{
       font-size: 16px;
     }
+    .middle img {
+      width: 40px;
+      height: 40px;
+    }
   }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     .eduPad {
@@ -129,5 +139,9 @@
     }
     .list li{
       font-size: 16px;
+    }
+    .middle img {
+      width: 40px;
+      height: 40px;
     }
   }

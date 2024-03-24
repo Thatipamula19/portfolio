@@ -88,6 +88,10 @@
   .list li{
     font-size: 14px;
   }
+  .middle img {
+    width: 40px;
+    height: 40px;
+  }
 }
 @media only screen and (min-width: 577px) and (max-width: 991px) {
   .expPad {
@@ -109,6 +113,10 @@
   .list li{
     font-size: 16px;
   }
+  .middle img {
+    width: 40px;
+    height: 40px;
+  }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .expPad {
@@ -129,5 +137,9 @@
   }
   .list li{
     font-size: 16px;
+  }
+  .middle img {
+    width: 40px;
+    height: 40px;
   }
 }
