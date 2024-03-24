@@ -1,0 +1,58 @@
+.CotSection {
+    background: url("/background/4.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+}
+
+.heading {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.line {
+    height: 5px;
+    background: linear-gradient(to right, #7733FF 70%, #F7A21E 50%);
+}
+.form_body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px auto;
+}
+.form{
+    padding: 40px 30px;
+    box-shadow: 0px 4px 20px 0px rgba(0, 96, 169, 0.20);
+    width: 400px;
+    border-radius: 12px;
+}
+.input{
+    height: 45px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #042752;
+    box-shadow: 0px 4px 20px 0px rgba(0, 96, 169, 0.20);
+}
+.textarea{
+    height: 100px;
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #042752;
+    box-shadow: 0px 4px 20px 0px rgba(0, 96, 169, 0.20);
+}
+.button {
+    background-color: #042752;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 12px;
+    height: 45px;
+    width: 120px;
+    text-align: center;
+    box-shadow: 0px 4px 20px 0px rgba(0, 96, 169, 0.20);
+}

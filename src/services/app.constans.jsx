@@ -1,0 +1,37 @@
+export const skillsDetails = [
+    {
+        "logo":"/homepage/skills/angular.svg",
+        "skill":"Angular",
+        "bgColor":""
+    },
+    {
+        "logo":"/homepage/skills/nextjs.svg",
+        "skill":"Nextjs",
+        "bgColor":""
+    },
+    {
+        "logo":"/homepage/skills/react.svg",
+        "skill":"React",
+        "bgColor":""
+    },
+    {
+        "logo":"/homepage/skills/html.svg",
+        "skill":"HTML",
+        "bgColor":""
+    },
+    {
+        "logo":"/homepage/skills/css.svg",
+        "skill":"CSS",
+        "bgColor":""
+    },
+    {
+        "logo":"/homepage/skills/javascript.svg",
+        "skill":"JavaScript",
+        "bgColor":""
+    },
+    {
+        "logo":"/homepage/skills/bootstrap.svg",
+        "skill":"Bootstrap",
+        "bgColor":""
+    }
+]

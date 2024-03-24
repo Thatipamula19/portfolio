@@ -1,0 +1,230 @@
+.heroSection{
+    background: url("/background/3.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+}
+.heroFlex{
+    display: flex;
+}
+.heroLeft{
+    width: 60%;
+}
+.heroRight{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headingBody{
+    padding: 40px;
+    margin-top: 30px;
+}
+.heading{
+    color: #ffffff;
+}
+.heroDes{
+    color: grey;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.heroImage{
+    /* border-radius: 50%; */
+    width: 300px;
+}
+.whiteColor{
+    color: #ffffff;
+}
+.heroBtnFlex{
+    display: flex;
+    margin-top: 30px;
+}
+.heroBtnDown{
+    background: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.heroBtnExp{
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-weight: 300;
+    cursor: pointer;
+    box-shadow: 2px 4px 5px 5px inset rgba(0, 0, 0, 0.2);
+}
+@media only screen and (min-width: 320px) and (max-width: 576px) {
+    .heroSection{
+        padding: 20px;
+    }
+    .heroImage{
+        width: 250px;
+        margin-bottom: 30px;
+    }
+    .heroFlex{
+        display: flex;
+        padding: 0px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .heroLeft{
+        width: 100%;
+    }
+    .heroRight{
+        width: 100%;
+    }
+    .heading{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .headingBody{
+        padding: 0px;
+        text-align: center;
+    }
+    .heroDes{
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .heroBtnFlex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 30px;
+    }
+    .heroBtnDown{
+        margin: 0;
+    } 
+}
+@media only screen and (min-width: 577px) and (max-width: 766px) {
+    .heroImage{
+        width: 250px;
+        margin-bottom: 30px;
+    }
+    .heroFlex{
+        display: flex;
+        padding: 0px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .heroLeft{
+        width: 100%;
+    }
+    .heroRight{
+        width: 100%;
+    }
+    .heading{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .headingBody{
+        padding: 0px;
+        text-align: center;
+    }
+    .heroDes{
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .heroBtnFlex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 15px;
+        margin-top: 30px;
+    }
+    .heroBtnDown{
+        margin: 0;
+    } 
+}
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+    .heroImage{
+        width: 250px;
+        margin-bottom: 30px;
+    }
+    .heroFlex{
+        display: flex;
+        padding: 0px;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .heroLeft{
+        width: 100%;
+    }
+    .heroRight{
+        width: 100%;
+    }
+    .heading{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .headingBody{
+        padding: 0px;
+        text-align: center;
+    }
+    .heroDes{
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .heroBtnFlex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        gap: 15px;
+        margin-top: 30px;
+    }
+    .heroBtnDown{
+        margin: 0;
+    } 
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .heroFlex{
+        display: flex;
+        padding: 0px;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .heroLeft{
+        width: 60%;
+    }
+    .heroRight{
+        width: 40%;
+    }
+    .heading{
+        font-size: 24px;
+        font-weight: 600;
+    }
+    .headingBody{
+        padding: 0px;
+    }
+    .heroDes{
+        font-size: 14px;
+        font-weight: 500;
+        margin-top: 20px;
+    }
+    .heroBtnFlex{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 15px;
+        margin-top: 30px;
+    }
+    .heroImage{
+        margin-bottom: 30px;
+    }
+    
+}

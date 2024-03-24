@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: Montserrat, sans-serif;
+    background: #fff !important;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn.focus,
+.btn:focus,
+.btn:not(:disabled):not(.disabled).active,
+.btn:not(:disabled):not(.disabled):active,
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+}
+.owl-dots {
+    display: inline-block;
+    zoom: 1;
+}
+.owl-dot.active span, .owl-dot:hover span {
+    width: 50px !important;
+    background: #007BFF !important;
+}
+.owl-dots .owl-dot span {
+    width: 20px;
+    height: 6px;
+    margin: 5px 7px;
+    background: #d6d6d6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity .2s ease;
+    border-radius: 30px;
+}
+.owl-nav.disabled {
+    display: none !important;
+}
+ .owl-dots.disabled {
+    display: block !important;
+}

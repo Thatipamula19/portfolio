@@ -1,0 +1,19 @@
+.expSection{
+    background: url("/background/4.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px;
+}
+.expBody{
+    padding: 40px;
+}
+.expDes{
+    color: grey;
+    font-weight: 500;
+}
+.expHead{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 800;
+}
