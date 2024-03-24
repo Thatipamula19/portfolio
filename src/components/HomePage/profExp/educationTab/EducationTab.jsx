@@ -1,8 +1,6 @@
 import React from 'react'
 import classes from './educationTab.module.css';
-import useWow from '@/utils/useWow';
 const EducationTab = () => {
-  const wowRef = useWow();
   return (
       <div className={`${classes?.eduPad}`}>
 

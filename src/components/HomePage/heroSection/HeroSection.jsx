@@ -1,9 +1,7 @@
 "use client";
 import React from 'react';
 import classes from "./heroSection.module.css";
-import useWow from '@/utils/useWow';
 export default function HeroSection() {
-  const wowRef = useWow();
   return (
     <>
     {

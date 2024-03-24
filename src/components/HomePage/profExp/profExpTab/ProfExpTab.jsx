@@ -1,9 +1,7 @@
 "use client"
 import React from 'react'
 import classes from './profExpTab.module.css';
-import useWow from '@/utils/useWow';
 const ProfExpTab = () => {
-    const wowRef = useWow();
     return (
         <div className={`${classes?.expPad}`}>
 
