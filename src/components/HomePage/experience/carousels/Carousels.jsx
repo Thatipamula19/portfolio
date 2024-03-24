@@ -36,7 +36,7 @@ const SkillsCarousels = () => {
             {
                 skills.map((skill, index) =>( 
                     <div key={index} className="item">
-                        <div className={`${classes?.card}`}>
+                        <div className={`${classes?.card} animate__animated animate__fadeInDown animate__delay-0.5s`}>
                             <div className={`${classes?.cardBody}`}>
                                 <img src={skill?.logo} alt="Angular" className={`${classes?.cardLogo}`}/>
                                 <h1 className={`${classes?.heading}`}>{skill?.skill}</h1>

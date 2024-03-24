@@ -5,7 +5,7 @@ const ProfExpTab = () => {
     return (
         <div className={`${classes?.expPad}`}>
 
-            <div className={`${classes?.expFlex} wow bounceInDown`}>
+            <div className={`${classes?.expFlex} animate__animated animate__fadeInDown animate__delay-1s`}>
                 <div className={`${classes?.expCardLeft}`}>
                     <div className={`${classes?.lineFlex}`}>
                         <div className={`${classes?.top_line}`}></div>
@@ -52,7 +52,7 @@ const ProfExpTab = () => {
                 </div>
             </div>
 
-            <div className={`${classes?.expFlex} wow bounceInUp`}>
+            <div className={`${classes?.expFlex} animate__animated animate__fadeInUp animate__delay-2s`}>
                 <div className={`${classes?.expCardLeft}`}>
                     <div className={`${classes?.lineFlex}`}>
                         <div className={`${classes?.top_line}`}></div>

@@ -36,7 +36,7 @@ const handleClick = (sectionId) => {
           </ul>
         </div>
         <div className={`${openNav ? `${classes?.mob_nav}` : `${classes?.mob_nav_close}`}`}>
-          <div className={`${classes?.mob_side_nav} fadeInDown ${mobAnimation ? `${classes?.mob_side_nav_close} fadeOutUp` : ''}`}>
+          <div className={`${classes?.mob_side_nav} animate__animated animate__fadeInDown ${mobAnimation ? `${classes?.mob_side_nav_close} animate__animated animate__fadeOutUp` : ''}`}>
             <a onClick={handelClose}>
             <span className={`${classes?.mob_close_icon}`}>X </span>
             </a>

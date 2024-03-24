@@ -80,27 +80,7 @@
         background-color: #042752;
         transition: 0.5s;
         box-shadow: 0 10px 20px #042752;
-        animation: slide-in 0.5s ease-in;
     }
-    @keyframes slide-in {
-        0% {
-          transform: translateY(0%);
-        }
-        100% {
-          transform: translateY(100%);
-        }
-      }
-      .mob_side_nav_close{
-        animation: slide-out 0.5s ease-out;
-      }
-      @keyframes slide-out {
-        0% {
-          transform: translateY(50%);
-        }
-        100% {
-          transform: translateY(0%);
-        }
-      }
     .mob_nav_list {
         display: flex;
         flex-direction: column;

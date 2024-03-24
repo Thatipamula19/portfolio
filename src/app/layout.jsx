@@ -5,7 +5,7 @@ import "@fortawesome/fontawesome-free/css/all.min.css";
 import '/public/css/owl.carousel.min.css';
 import '/public/css/owl.theme.default.min.css';
 import '/public/css/owl.theme.green.min.css';
-// import 'animate.css';
+import 'animate.css';
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {

@@ -4,7 +4,7 @@ const EducationTab = () => {
   return (
       <div className={`${classes?.eduPad}`}>
 
-          <div className={`${classes?.eduFlex} wow fadeInLeft`}>
+          <div className={`${classes?.eduFlex} animate__animated animate__fadeInDown animate__delay-0.5s`}>
               <div className={`${classes?.eduCardLeft}`}>
                   <div className={`${classes?.lineFlex}`}>
                       <div className={`${classes?.top_line}`}></div>
@@ -24,7 +24,7 @@ const EducationTab = () => {
               </div>
           </div>
 
-          <div className={`${classes?.eduFlex} wow fadeInRight`}>
+          <div className={`${classes?.eduFlex} animate__animated animate__fadeInLeft animate__delay-1s`}>
               <div className={`${classes?.eduCardLeft}`}>
                   <div className={`${classes?.lineFlex}`}>
                       <div className={`${classes?.top_line}`}></div>
@@ -43,7 +43,7 @@ const EducationTab = () => {
                   </div>
               </div>
           </div>
-          <div className={`${classes?.eduFlex} wow fadeInLeft`}>
+          <div className={`${classes?.eduFlex} animate__animated animate__fadeInRight animate__delay-2s`}>
               <div className={`${classes?.eduCardLeft}`}>
                   <div className={`${classes?.lineFlex}`}>
                       <div className={`${classes?.top_line}`}></div>
@@ -62,7 +62,7 @@ const EducationTab = () => {
                   </div>
               </div>
           </div>
-          <div className={`${classes?.eduFlex} wow fadeInRight`}>
+          <div className={`${classes?.eduFlex} animate__animated animate__fadeInUp animate__delay-3s`}>
               <div className={`${classes?.eduCardLeft}`}>
                   <div className={`${classes?.lineFlex}`}>
                       <div className={`${classes?.top_line}`}></div>
