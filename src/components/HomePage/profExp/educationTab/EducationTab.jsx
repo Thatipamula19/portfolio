@@ -17,7 +17,7 @@ const EducationTab = () => {
               <div className={`${classes?.eduCardRight}`}>
                   <div className={`${classes?.eduCard}`}>
                       <div>
-                          <h2 className={`${classes?.positionHead}`}>MSc Computer Science (2021)</h2>
+                          <h2 className={`${classes?.positionHead}`}>MSc Computer Science (2020)</h2>
                           <h5 className={`${classes?.compHead}`}>Satavaha University, Karimnagar. | CGPA : 7.3</h5>
                       </div>
                   </div>
