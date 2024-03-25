@@ -4,6 +4,7 @@ import Navbar from './navBar/NavBar'
 import Experiences from './experience/Experiences'
 import ProfExp from './profExp/ProfExp'
 import Contact from './contact/Contact'
+import Footer from './footer/Footer'
 
 const HomePage = () => {
   return (
@@ -13,6 +14,7 @@ const HomePage = () => {
           <Experiences />
           <ProfExp />
           <Contact />
+          <Footer />
       </>
   )
 }
