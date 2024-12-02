@@ -2,7 +2,7 @@
 import dynamic from "next/dynamic";
 import React from 'react';
 import classes from './carousels.module.css';
-import { skillsDetails } from "@/services/app.constans";
+import { skillsDetails } from "../../../../services/app.constans";
 const OwlCarousel = dynamic(() => import("react-owl-carousel"), {ssr: false});
 const SkillsCarousels = () => {
     const skills = skillsDetails;
